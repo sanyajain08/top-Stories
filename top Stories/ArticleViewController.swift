@@ -31,17 +31,17 @@ class ArticleViewController: UITableViewController {
                     }
                 }
             }
-            self.loadError()
+            self.loadError()         
         }
         
     }
     
     func parse(json: JSON) {
         for result in json["articles"].arrayValue {
-            let title = result["title"].stringValue
+            let name = result["name"].stringValue
             let description = result["description"].stringValue
             let url = result["url"].stringValue
-            let article = ["title": title, "description": description, "url": url]
+            let article = ["name": name, "description": description, "url": url]
             articles.append(article)
         }
         DispatchQueue.main.async {
