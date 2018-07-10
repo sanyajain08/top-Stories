@@ -12,7 +12,7 @@
 		7542566820F502C400D638BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542566620F502C400D638BF /* Main.storyboard */; };
 		7542566A20F502C500D638BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7542566920F502C500D638BF /* Assets.xcassets */; };
 		7542566D20F502C500D638BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542566B20F502C500D638BF /* LaunchScreen.storyboard */; };
-		7542567520F5053500D638BF /* SwiftyJSON-master.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7542567420F5053500D638BF /* SwiftyJSON-master.zip */; };
+		7542567720F5093800D638BF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542567620F5093800D638BF /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		7542566920F502C500D638BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7542566C20F502C500D638BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7542566E20F502C500D638BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7542567420F5053500D638BF /* SwiftyJSON-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "SwiftyJSON-master.zip"; sourceTree = "<group>"; };
+		7542567620F5093800D638BF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				7542566920F502C500D638BF /* Assets.xcassets */,
 				7542566B20F502C500D638BF /* LaunchScreen.storyboard */,
 				7542566E20F502C500D638BF /* Info.plist */,
-				7542567420F5053500D638BF /* SwiftyJSON-master.zip */,
+				7542567620F5093800D638BF /* SwiftyJSON.swift */,
 			);
 			path = "top Stories";
 			sourceTree = "<group>";
@@ -128,7 +128,6 @@
 				7542566D20F502C500D638BF /* LaunchScreen.storyboard in Resources */,
 				7542566A20F502C500D638BF /* Assets.xcassets in Resources */,
 				7542566820F502C400D638BF /* Main.storyboard in Resources */,
-				7542567520F5053500D638BF /* SwiftyJSON-master.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7542567720F5093800D638BF /* SwiftyJSON.swift in Sources */,
 				7542566520F502C400D638BF /* SourcesViewController.swift in Sources */,
 				7542566320F502C400D638BF /* AppDelegate.swift in Sources */,
 			);
