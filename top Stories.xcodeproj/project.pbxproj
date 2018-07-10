@@ -13,6 +13,7 @@
 		7542566A20F502C500D638BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7542566920F502C500D638BF /* Assets.xcassets */; };
 		7542566D20F502C500D638BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542566B20F502C500D638BF /* LaunchScreen.storyboard */; };
 		7542567720F5093800D638BF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542567620F5093800D638BF /* SwiftyJSON.swift */; };
+		7542567920F510C300D638BF /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542567820F510C300D638BF /* ArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7542566C20F502C500D638BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7542566E20F502C500D638BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7542567620F5093800D638BF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7542567820F510C300D638BF /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				7542566220F502C400D638BF /* AppDelegate.swift */,
 				7542566420F502C400D638BF /* SourcesViewController.swift */,
+				7542567820F510C300D638BF /* ArticleViewController.swift */,
 				7542566620F502C400D638BF /* Main.storyboard */,
 				7542566920F502C500D638BF /* Assets.xcassets */,
 				7542566B20F502C500D638BF /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7542567720F5093800D638BF /* SwiftyJSON.swift in Sources */,
+				7542567920F510C300D638BF /* ArticleViewController.swift in Sources */,
 				7542566520F502C400D638BF /* SourcesViewController.swift in Sources */,
 				7542566320F502C400D638BF /* AppDelegate.swift in Sources */,
 			);
